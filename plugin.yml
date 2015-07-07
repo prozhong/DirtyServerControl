@@ -1,0 +1,4 @@
+name: DirtyServerControl
+main: gri.ppt.DirtyServerControl.DirtyServerControl
+version: 1.0.0
+author: ppt
