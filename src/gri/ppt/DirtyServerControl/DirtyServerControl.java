@@ -14,13 +14,6 @@ public class DirtyServerControl extends JavaPlugin{
 		getLogger().info("卸载DirtyServerControl中.. ");
 	}
 	public void FakelistenerReg(){
-		
+		new NetherBedrockCheck(this);
 	}
-	public void Regself(){
-    	Bukkit.getScheduler().scheduleSyncRepeatingTask(this, new Runnable() {
-		    public void run() {
-		    	NBCheck();
-		    }
-		    }, 0, 100);
-    }
 }
