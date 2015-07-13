@@ -1,4 +1,9 @@
 name: DirtyServerControl
 main: gri.ppt.DirtyServerControl.DirtyServerControl
-version: 1.0.0
+version: 1.0.1
+depends: [CoreProtect]
 author: ppt
+commands:
+  dsc:
+    usage: /dsc xray <name> <days>
+    permission: dirtyservercontrol.antixray.use
